@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Login Page</title>
+    <!-- Link to CSS (create css/styles.css) -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script>
+      function validateForm() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        
+        if (username.trim() === '') {
+          alert('Please enter a username');
+          return false;
+        }
+        if (password.length < 6) {
+          alert('Password must be at least 6 characters long');
+          return false;
+        }
+        return true;
+      }
+    </script>
+</head>
+<body>
+    <!--ring div starts here-->
+<div class="ring">
+  <i style="--clr:#00ff0a;"></i>
+  <i style="--clr:#ff0057;"></i>
+  <i style="--clr:#fffd44;"></i>
+</div>
+<div class="login">
+  <h2>Login</h2>
+  <form onsubmit="return validateForm()">
+    <div class="inputBx">
+      <i class="fas fa-user"></i>
+      <input type="text" placeholder="Username" id="username" required>
+    </div>
+    <div class="inputBx">
+      <i class="fas fa-lock"></i>
+      <input type="password" placeholder="Password" id="password" required>
+    </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <div class="inputBx">
+        <input type="submit" value="Sign in">
+      </div>
+      <div class="social-signin">
+        <p>Or Sign in with</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#">Forgot Password?</a>
+        <a href="#">Sign up</a>
+      </div>
+    </form>
+  </div>
+</div>
+<!--ring div ends here-->
+</body>
+</html>
