@@ -9,7 +9,7 @@ Form-ready structure for easy integration with backend/auth logic
 Minimal, easy-to-understand code — great for learning or quick prototyping
 
 ## Demo 
-## Preview Link - 
+## Preview Link - https://shojib-80.github.io/Dynamic-Login-Page/
 <img width="1167" height="859" alt="image" src="https://github.com/user-attachments/assets/7ecb3e52-735b-4c8c-915c-60ce2196fa3d" />
 
 ## Technologies
