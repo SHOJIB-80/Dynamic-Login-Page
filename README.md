@@ -43,16 +43,16 @@ Add aria-* attributes or client-side validation as needed
 Contributing
 Contributions are welcome. To contribute:
 
-Fork the repository
+## Fork the repository
 Create a feature branch: git checkout -b feature/your-feature
 Commit your changes: git commit -m "Add feature"
 Push to your fork and open a pull request
 Please keep changes focused and include screenshots when updating UI.
 
-License
+## License
 Specify a license (e.g., MIT). If you want me to add an MIT license file, tell me and I can create it.
 
 Example license notice for README: This project is licensed under the MIT License — see the LICENSE file for details.
 
-Contact
+## Contact
 Created by SHOJIB-80 — feel free to open an issue or reach out on GitHub.
